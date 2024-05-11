@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 function HomePage() {
-    const [apiEndpoint, setApiEndpoint] = useState("https://1efxukcne3.execute-api.us-east-1.amazonaws.com/prod");
+    const [apiEndpoint, setApiEndpoint] = useState("https://hvyx6cw34m.execute-api.us-east-1.amazonaws.com/prod");
     const [products, setProducts] = useState([]);
     const [order, setOrder] = useState({productId: "", name: "", description: "", price: 0, qty: 0, userName: "", email: ""});
 
